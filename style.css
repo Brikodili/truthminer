@@ -1,0 +1,180 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  font-family: 'Helvetica';
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+min-height: 40px;
+}
+
+.footer a {
+  padding-right: 10px;
+  padding-left: 10px; 
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+
+h1.black_sign {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1.green_sign {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color:  #72BB53;
+}
+
+h1.red_sign {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color:  #b70f0a;
+}
+
+p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.page-header {
+  border-bottom: 0px;
+}
+
+
+
+
+.navbar-default {
+  background-color: #72BB53;
+  border-color: #000;
+}
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #72BB53;
+  background-color: #fff;
+}
+.navbar-default .navbar-text {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #72BB53;
+  background-color: #fff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #72BB53;
+  background-color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #555;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #e7e7e7;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: #e7e7e7;
+}
+
+
+.img-center {
+  position: relative;
+   display: block;
+  margin:  0 auto !important;
+}
+
+.panel-default {
+  
+  margin-top: 10px;
+}
+
+.red_back {
+  background-color: #BA0505;
+}
+
+.green_back {
+  background-color: #72BB53;
+}
+
+
+a.details_link {
+font-size: 18px;
+font-weight: bold;
+color:  #fff;
+text-align: right;
+}
+
+.mine_sign {
+  text-align: left;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.input_textarea {
+  border-radius: 0px;
+  border-color: #000;
+  background-color: #DCE0E7;
+  color: #000;
+}
+
+.btn-success {
+  border: 1px solid #000;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.radio {
+  font-size: 18px;
+  font-weight: bold;
+  color:  #fff;
+}
